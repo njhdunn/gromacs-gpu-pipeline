@@ -1,0 +1,24 @@
+Cl                35.45000	; chlorine  (Applequist)
+Na                22.99000	; Na+, ions pol:J.PhysC,11,1541,(1978)
+K                 39.10000	; potassium
+OW                16.00000      ; oxygen in TIP3P water
+HW                 1.00800      ; H in TIP3P water
+c                 12.00000
+c3                12.00000
+ca                12.00000
+cl                35.45300
+f                 19.00000
+h1                 1.00800
+ha                 1.00000
+hc                 1.00800
+hn                 1.00000
+ho                 1.00000
+hx                 1.00000
+lj                12.00000
+n                 14.00000
+n3                14.00000 
+nh                14.00000
+o                 16.00000
+oh                16.00000
+os                16.00000
+s6                32.06500

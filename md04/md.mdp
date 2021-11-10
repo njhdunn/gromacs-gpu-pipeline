@@ -1,0 +1,36 @@
+integrator               = md
+dt                       = 0.002
+nsteps                   = 500000000
+comm-grps		 = System
+;
+nstxout                  = 10000
+nstvout                  = 0
+nstfout                  = 0
+nstlog                   = 1000
+nstenergy                = 10000
+;
+nstlist                  = 40
+ns_type                  = grid
+pbc                      = xyz
+rlist                    = 1.1
+cutoff-scheme            = Verlet
+;
+coulombtype              = PME
+rcoulomb                 = 0.9
+vdw_type                 = cut-off 
+rvdw                     = 0.9
+DispCorr                 = EnerPres
+;
+tcoupl                   = v-rescale
+tc-grps                  = System
+tau_t                    = 0.1
+ref_t                    = 298.0
+;
+Pcoupl                   = C-rescale
+Pcoupltype               = isotropic
+tau_p                    = 0.5
+compressibility          = 1.0e-5
+ref_p                    = 1.0
+;
+constraints              = hbonds
+;
