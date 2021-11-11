@@ -38,7 +38,7 @@ else
 
 	# only grompp if we don't have the tpr to avoid excess files
 	if [[ ! -f ${MODEL}.tpr ]]; then
-		gmx_mpi grompp -f bench.mdp -c $INPDB -p ${MODEL}.top -o ${MODEL}.tpr
+		gmx_mpi grompp -f $MDP -c $INPDB -p ${MODEL}.top -o ${MODEL}.tpr
 	fi
 
 	# kill the gromacs job early so we can resubmit from checkpoint
